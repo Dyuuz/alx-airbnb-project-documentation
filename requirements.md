@@ -30,7 +30,7 @@
 ### **Input / Output Specification**
 
 **Input Example**
-```json
+```
 {
   "first_name": "Jane",
   "last_name": "Doe",
@@ -78,7 +78,7 @@
 ### **Input / Output Specification**
 
 **Input Example**
-```json
+```
 {
   "name": "Ocean View Apartment",
   "description": "Beautiful sea-view apartment",
@@ -120,7 +120,7 @@
 ### **Input / Output Specification**
 
 **Input Example**
-```json
+```
 {
   "property_id": "uuid",
   "start_date": "2025-11-01",
