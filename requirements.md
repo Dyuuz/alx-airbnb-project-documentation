@@ -37,13 +37,16 @@
   "email": "jane@example.com",
   "password": "SecurePass123!"
 }
+```
 
 ### **Output Example (Success)**
+```
 {
   "message": "Registration successful",
   "user_id": "uuid",
   "token": "jwt_token_here"
 }
+```
 
 ### Validation Rules
 
@@ -86,6 +89,16 @@
   "pricepernight": 150.00,
   "amenities": ["Wi-Fi", "Pool", "AC"]
 }
+```
+
+### **Output Example (Success)**
+```
+{
+  "message": "Property created successfully",
+  "property_id": "uuid",
+  "created_at": "2025-10-26T10:30:00Z"
+}
+```
 
 ### Validation Rules
 
@@ -126,14 +139,17 @@
   "start_date": "2025-11-01",
   "end_date": "2025-11-05"
 }
+```
 
+### **Output Example (Success)**
+```
 {
   "message": "Booking confirmed",
   "booking_id": "uuid",
   "status": "confirmed",
   "total_price": 600.00
 }
-
+```
 ### Validation Rules
 
 - start_date and end_date must be valid and non-overlapping.
