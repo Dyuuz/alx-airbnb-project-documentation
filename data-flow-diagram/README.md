@@ -62,4 +62,4 @@ The Data Flow Diagram (Level 1) includes the following **core entities** and **d
 
 The visual representation of this data flow can be found below:
 
-![alt text](data_flow.png)
+![alt text](FLOWCHART.png)
